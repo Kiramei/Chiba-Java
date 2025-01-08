@@ -17,6 +17,7 @@ public class Hyouka {
      * @return 評価（HYOUKA_TABLEの値）
      * @throws ScoreException 点数が範囲外の場合に例外を投げる
      */
+    // only Future JDD
     static String getHyouka(int score) throws ScoreException {
         // 点数が100を超える場合、例外をスロー
         if (score > 100) {
